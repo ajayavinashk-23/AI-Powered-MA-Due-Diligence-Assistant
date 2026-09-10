@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual Environment
+venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# Data
+data/uploads/*
+data/chunks/*
+data/processed/*
+data/vector_db/*
+reports/*
+
+# Keep folders
+!data/uploads/.gitkeep
+!data/chunks/.gitkeep
+!data/processed/.gitkeep
+!data/vector_db/.gitkeep
+!reports/.gitkeep
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
